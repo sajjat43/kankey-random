@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@media (min-width: 530px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .cart {
+        border: 1px solid rgb(221, 68, 68);
+        border-radius: 10px;
+        text-align: center;
+        margin: 199px 72px 530px;
+        box-shadow: 5px 5px 10px 10px rgb(240 120 120);
+    }
+}
+
+body {
+    background-color: rgb(226, 218, 231);
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.cart {
+    border: 1px solid rgb(221, 68, 68);
+    border-radius: 10px;
+    text-align: center;
+    margin: 200px 450px 420px 450px;
+    box-shadow: 5px 5px 10px 10px rgb(240, 120, 120);
+}
+
+.inner {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgba(221, 68, 68);
+    margin-bottom: 20px;
+    border: transparent;
+    box-shadow: 30px white;
+    border-radius: 8px;
+    color: antiquewhite;
+    padding: 6px;
+    font-weight: 300;
+}
+
+button:hover {
+    background-color: rgb(238, 38, 121);
+    box-shadow: 2px 2px 3px 3px rgb(240, 120, 120);
+}
+
+.attribution {
+    align-items: flex-end;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.attribution a {
+    color: green;
+}
