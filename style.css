@@ -49,7 +49,16 @@ section.cart-container {
     margin-top: 20px;
 }
 
+.button-contianer {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 button {
+    display: block;
+    width: 100%;
     background-color: rgba(221, 68, 68);
     margin-bottom: 20px;
     border: transparent;
@@ -58,6 +67,7 @@ button {
     color: antiquewhite;
     padding: 6px;
     font-weight: 300;
+    width: 60px;
 }
 
 button:hover {
